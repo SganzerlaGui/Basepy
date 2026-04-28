@@ -4,7 +4,7 @@
 #    else:
 #        continue
 
-temperaturas = [25, 32, 18, 40, 22, 12]
+#temperaturas = [25, 32, 18, 40, 22, 12]
 
 #for grau in temperaturas:
 #    if grau <= 35:
@@ -12,9 +12,30 @@ temperaturas = [25, 32, 18, 40, 22, 12]
 #    else:
 #        print(f"{grau}°:ALERTA!! Suepraquecimento.")
 
-kelvin = []
+#kelvin = []
 
-for i in temperaturas:
-    kelvin.append(i + 273.15)
+#for i in temperaturas:
+#    kelvin.append(i + 273.15)
 
-print(kelvin)
+#print(kelvin)
+
+#soma = 1
+#n = 5
+#
+#for i in range(1, n + 1):
+#    soma *= i
+#
+#print(f"O resultado foi: {soma}")
+
+volts = [110, 115, 108, 121]
+
+r = 10
+
+potencia = 0 
+
+n = 1
+
+for i in volts:
+    potencia = i ** 2 / r
+    print(f"a potencia numero {i} é de: {potencia}")
+    n += 1
