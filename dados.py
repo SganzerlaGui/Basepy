@@ -1,11 +1,13 @@
 def cadastro():
+    
+    info = {"usuario": "Guilherme","Idade": "18", "senha": "1234"}
+    
     usuario = str(input("Qual o seu nome?: "))
 
     idade = int(input("Qual a sua idade?: "))
 
-    senha = float(input("Digite uma senha segura: "))
+    senha = input("Digite uma senha segura: ")
 
-    
     dados = {
 
     "usuario": usuario, 
@@ -19,6 +21,6 @@ def cadastro():
         print("Tente um usuario novo!")
 
 
-    return usuario, idade, senha, dados
+    return usuario, idade, senha, dados, info
 
     
