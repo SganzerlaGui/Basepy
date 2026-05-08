@@ -6,9 +6,9 @@ with open('inventario.json', 'r', encoding='utf-8') as f:
     invent = json.load(f)
 
     
-cadastro()
+info_recebida = cadastro()
 
-invent.append(info)
+invent.append(info_recebida)
 
 
 

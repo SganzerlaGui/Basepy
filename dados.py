@@ -1,6 +1,5 @@
 def cadastro():
     
-    info = {"usuario": "Guilherme","Idade": "18", "senha": "1234"}
     
     usuario = str(input("Qual o seu nome?: "))
 
@@ -15,12 +14,13 @@ def cadastro():
     "senha": senha  
     }
 
-    if usuario and idade and senha == None:
+
+    if usuario and idade and senha:
         print("Seus dados foram cadastrados com sucesso! ")
     else:
         print("Tente um usuario novo!")
 
 
-    return usuario, idade, senha, dados, info
+    return usuario, idade, senha, dados
 
     
